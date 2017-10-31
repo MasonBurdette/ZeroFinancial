@@ -1,4 +1,6 @@
 # ZeroFinancial
+![screenshot](https://i.imgur.com/7YmMPbG.png)
+
 Accumulates many signup referrals on ZeroFinancial.com
 
 There are many bugs, as I have not fully reverse engineered the responses.

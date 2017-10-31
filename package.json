@@ -1,0 +1,16 @@
+{
+  "name": "zerofinancial",
+  "version": "1.0.0",
+  "description": "bot to send many signup requests on zerofinancial.com, used to increase queue position",
+  "main": "index.js",
+  "dependencies": {
+    "clear": "0.0.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "MasonBurdette",
+  "license": "ISC"
+}

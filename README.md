@@ -1,7 +1,7 @@
-# ZeroFinancial
+# Zero
 ![screenshot](https://i.imgur.com/7YmMPbG.png)
 
-Accumulates many signup referrals on ZeroFinancial.com
+Accumulates many signup referrals on zerofinancial.com
 
 There are many bugs, as I have not fully reverse engineered the responses.
 

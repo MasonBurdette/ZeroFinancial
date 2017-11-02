@@ -1,5 +1,5 @@
 //
-//	ZeroFinancial Referral Generator
+//	Zero Referral Generator
 //	github.com/masonburdette
 //
 
@@ -60,7 +60,7 @@ function signUp(email) {
 			}, wait)
 		} else if (res.statusCode == 400) {
 			if (parsed_response["error"]["error_code"] == "3") {
-				console.log("You have been most likely flagged by ZeroFinancial.");
+				console.log("You have been most likely flagged by Zero.");
 				process.exit();
 			} else if (parsed_response["error"]["error_code"] == "2") {
 				console.log("The email sent was already registered!");
@@ -76,5 +76,5 @@ function signUp(email) {
 }
 
 //init
-console.log('/////////////////////////////////////\n  ZeroFinancial Referral Generator\n  github.com/masonburdette\n/////////////////////////////////////\n\n');
+console.log('/////////////////////////////////////\n  Zero Referral Generator\n  github.com/masonburdette\n/////////////////////////////////////\n\n');
 signUp(createRandomEmail());

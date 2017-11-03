@@ -40,8 +40,8 @@ function signUp(email) {
 		'email': email,
 		'access_code': referralCode,
 		'is_mobile': false,
-		'source': 'none',
-		'campaign': 'none'
+		'source': 't.co',
+		'campaign': ''
 	};
 	request({
 		url: 'https://zerofinancial.com/api/v1/user/',
